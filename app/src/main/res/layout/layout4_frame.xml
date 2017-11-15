@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+FrameLayout
+内包されるviewを重ねて表示することができる
+-->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <!--　 -->
+    <ImageView
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:background="#f8bbd0" />
+
+    <!--　 -->
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:background="#448aff" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="60dp"
+        android:background="#c2185b" />
+</FrameLayout>

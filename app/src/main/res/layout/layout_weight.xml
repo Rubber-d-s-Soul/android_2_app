@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.example.daisuke.second_app.MainActivity"
+    tools:showIn="@layout/activity_main">
+    <!--
+    各要素に振り分ける
+    android:layout_weight
+    -->
+
+    <LinearLayout
+        android:layout_width="368dp"
+        android:layout_height="503dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="5dp">
+
+        <!--　 -->
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="hello,world" />
+
+        <!--　 -->
+        <Button
+            android:layout_weight="1"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="two" />
+
+        <!-- -->
+        <Button
+            android:layout_weight="3"
+
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:text="three" />
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>
